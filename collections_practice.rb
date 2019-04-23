@@ -46,6 +46,7 @@ def count_elements(name_ary)
       count = new_hash[name_value]
       if count == nil
         new_hash[name_value] = 1 
+        binding.pry
       else
         new_hash[name_value] = count + 1 
       end  
